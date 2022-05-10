@@ -1,0 +1,351 @@
+
+
+
+#year-dropdown{
+    position: absolute;
+    width: 158px;
+    height: 49px;
+    left: 1204px;
+    top: 417px;
+
+    color: #9A9A9A;
+}
+#day-dropdown{
+    position: absolute;
+    width: 158px;
+    height: 49px;
+    left: 1036px;
+    top: 417px;
+
+    color: #9A9A9A;
+}
+
+#month-dropdown{
+    position: absolute;
+    width: 173px;
+    height: 49px;
+    left: 851px;
+    top: 417px;
+
+    color: #9A9A9A;
+}
+
+#rectangle13{
+    background-color: #3F4F77;
+    position: absolute;
+    width: 713px;
+    height: 982px;
+    left: 0px;
+    top: 0px;
+}
+.daily-vector{
+    position: absolute;
+    width: 612px;
+    height: 575px;
+    left: 47px;
+    top: 218px;
+}
+.discover-artist{
+    position: absolute;
+    width: 407px;
+    height: 106px;
+    left: 91px;
+    top: 98px;
+}
+.reg-title-left{
+    position: absolute;
+    width: 407px;
+    height: 106px;
+    left: 91px;
+    top: 98px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+
+    color: #FFFFFF;
+}
+.signup-title{
+    position: absolute;
+    width: 98px;
+    height: 39px;
+    left: 851px;
+    top: 98px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+
+    color: #000000;
+}
+.sub-signup-title{
+    position: absolute;
+    width: 290px;
+    height: 26px;
+    left: 851px;
+    top: 140px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #000000;
+}
+.input-field-name{
+    position: absolute;
+    width: 167px;
+    height: 26px;
+    left: 851px;
+    top: 193px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #000000;
+}
+.input-field-address{
+    position: absolute;
+    width: 239px;
+    height: 26px;
+    left: 851px;
+    top: 292px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #000000;
+}
+.input-field-birthday{
+    position: absolute;
+    width: 195px;
+    height: 26px;
+    left: 851px;
+    top: 391px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    
+    color: #000000;
+}
+.input-field-password{
+    position: absolute;
+    width: 127px;
+    height: 26px;
+    left: 851px;
+    top: 512px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    
+    color: #000000;
+}
+.input-floating-label{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #9A9A9A;
+}
+.name-input-first-name{
+    position: absolute;
+    width: 249px;
+    height: 49px;
+    left: 851px;
+    top: 219px;
+    
+    background: #FFFFFF;
+    border: 1px solid rgba(200, 200, 200, 0.24);
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.name-input-last-name{
+    position: absolute;
+    width: 249px;
+    height: 49px;
+    left: 1113px;
+    top: 219px;
+
+    background: #FFFFFF;
+    border: 1px solid rgba(200, 200, 200, 0.24);
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.email-input{
+    position: absolute;
+    width: 511px;
+    height: 49px;
+    left: 851px;
+    top: 318px;
+
+    background: #FFFFFF;
+    border: 1px solid rgba(200, 200, 200, 0.24);
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.password-input{
+    position: absolute;
+    width: 511px;
+    height: 49px;
+    left: 851px;
+    top: 538px;
+
+    background: #FFFFFF;
+    border: 1px solid rgba(200, 200, 200, 0.24);
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.signup-phone{
+    position: absolute;
+    width: 150px;
+    height: 20px;
+    left: 1226px;
+    top: 292px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    text-decoration: none;
+
+    color: #F1B104;
+}
+.birthday-note{
+    position: absolute;
+    width: 232px;
+    height: 20px;
+    left: 851px;
+    top: 474px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+
+    color: #9A9A9A;
+}
+.before-submit-note{
+    position: absolute;
+    width: 482px;
+    height: 40px;
+    left: 880px;
+    top: 611px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    
+    color: #000000;
+}
+.big-submit-btn{
+    position: absolute;
+    width: 510px;
+    height: 66px;
+    left: 851px;
+    top: 692px;
+
+    background: #F1B104;
+    border-radius: 4px;
+    border: none;
+}
+
+.divide{
+    position: absolute;
+    width: 511px;
+    height: 0px;
+    left: 851px;
+    top: 849px;
+
+    border: 1px solid #F2F2F2;
+}
+
+.after{
+    position: absolute;
+    width: 415px;
+    height: 42px;
+    left: 900px;
+    top: 773px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+
+    color: #000000;
+}
+.line1{
+    position: absolute;
+    width: 511px;
+    height: 0px;
+    left: 851px;
+    top: 849px;
+
+    border: 1px solid #F2F2F2;
+}
+.existing-acc{
+    position: absolute;
+    width: 297px;
+    height: 26px;
+    left: 970px;
+    top: 866px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #000000;
+    text-decoration: none;
+}
+.input-field-login-password{
+    position: absolute;
+    width: 127px;
+    height: 26px;
+    left: 851px;
+    top: 390px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    
+    color: #000000;
+}
+.login-password-input{
+    position: absolute;
+    width: 511px;
+    height: 49px;
+    left: 851px;
+    top: 416px;
+
+    background: #FFFFFF;
+    border: 1px solid rgba(200, 200, 200, 0.24);
+    box-sizing: border-box;
+    border-radius: 4px;
+}
