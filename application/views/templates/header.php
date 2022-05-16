@@ -11,6 +11,6 @@ defined('BASEPATH') OR exit ('No direct script access allowed');
     <link href="<?php echo base_url('css/bootstrap.min.css');  ?>" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
     <link rel = "stylesheet" type = "text/css" href = "<?php echo base_url(); ?>css/figma.css">
-    <title>Registration Form</title>
+    <title><?php echo $title ?></title>
 </head>
 <body>

@@ -21,6 +21,7 @@
                 <div class="form-floating mb-3 email-input">
                     <input type="email" class="form-control" id="floatingInput" name="email" placeholder="name@example.com" required>
                     <label for="floatingInput" class="input-floating-label">Email address</label>
+                    <span class="text-danger"><?php echo form_error('email') ?></span>
                 </div>
 
                 <button type="button" class="btn btn-link signup-phone">Sign up with email</button>
@@ -31,7 +32,7 @@
                 <div class="form-floating login-password-input">
                     <input type="password" class="form-control" id="floatingPassword" name="password" placeholder="Password" required>
                     <label for="floatingPassword" class="input-floating-label">Password</label>
-        
+                    <span class="text-danger"><?php echo form_error('password') ?></span>
                 </div>
 
                 <div class="before-submit-note">
@@ -39,7 +40,8 @@
                 </div>
 
                 <div class="d-grid gap-2 col-6 mx-auto big-submit-btn">
-                    <button class="btn" type="submit" name="login" value="Login">Login</button>
+                    <button class="btn" type="submit" name="insert" value="Login">Login</button>
+                    <?php echo $this->session->flashdata("error"); ?>
                 </div>
         
                 <div class="after">
